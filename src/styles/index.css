@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.todo_item {
+    display: flex;
+    align-content: space-between;
+    margin-bottom: 2px;
+
+}
+
+.todo_item>div {
+    margin: 0px 10px;
+    padding: 2px;
+}
+
+.todo_item--text {
+    width: 10em;
+    background-color: #f7f3f3;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    cursor: default;
+}
+
+.todo_item--remove {
+    color: red;
+    cursor: pointer;
+}
+
+.add_todo--input {
+    margin-right: 5px;
+    padding: 4px;
+}
+
+.add_todo--button {
+    padding: 5px;
+    background-color: cadetblue;
+    color: whitesmoke;
+}
